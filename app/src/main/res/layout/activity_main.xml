@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--To add text in the app-->
+
+    <!--when you press this button it will
+        convert text into speech-->
+    <EditText
+        android:id="@+id/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:hint="Enter Any Sentence"
+        android:textSize="16dp" />
+
+    <!--To display the name of GeeksForGeeks -->
+    <Button
+        android:id="@+id/btnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Click Here"
+        app:backgroundTint="#A50202" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center_horizontal"
+        android:text="Varshant Atray"
+        android:textColor="@color/teal_700"
+        android:textColorHighlight="#5A0909"
+        android:textColorHint="#3A0101"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ss" />
+
+</LinearLayout>
